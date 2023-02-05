@@ -1,0 +1,92 @@
+/* desktop version */
+body{
+  background-image: url('../images/bg-desktop.svg');
+  background-color: #663399;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* page text and heading */
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.page-text{
+  padding: 3rem 3rem 0 2rem;
+}
+#page{
+  margin: 2rem 5rem 0 5rem;
+  padding-bottom: 3rem;
+}
+/* page logo */
+.logo{
+  width: 20%;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+/* buttons */
+.register-btn{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  width: 12rem;
+  height: 3rem;
+  border-radius: 2rem;
+  color: #663399;
+}
+.register-btn:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+/* icons */
+.icons{
+  text-align: right;
+}
+.facebook-icon, .twitter-icon, .instagram-icon{
+  padding-left: 1rem;
+}
+/* footer */
+.attribution{
+  text-align: center;
+  color: yellow;
+}
+/* mobile version */
+@media screen and (max-width:900px){
+body{
+  background-image: url('../images/bg-mobile.svg');
+  background-color: #663399;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+#page{
+  margin: 3rem 4rem 2rem 4rem;
+
+}
+/* image */
+.mock-image{
+  width: 400px;
+  margin-bottom: 2rem;
+}
+/* body text */
+.page-text{
+  text-align: center;
+  text-indent: 1rem;
+  word-spacing: 2px;
+  line-height: 2;
+}
+/* logo */
+.logo{
+  width: 40%;
+}
+/* button */
+.register-btn{
+  margin-top: 1rem;
+}
+/* icon */
+.icons{
+  text-align: center;
+  margin-top: 6rem;
+}
+}
